@@ -50,6 +50,7 @@ for j in xrange(m):
     p,q=map(int,raw_input().split())
     x=p-1
     y=q-1
+#constructing undirected graph(adjacency list representation)
     if x in graph:
         if y in graph[x]:
             if graph[x][y]==1:
